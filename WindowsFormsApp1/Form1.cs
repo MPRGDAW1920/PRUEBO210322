@@ -28,11 +28,11 @@ namespace WindowsFormsApp1
             //Obtengo el primer carácter de la cadena
             tipoTelegrama = textoTelegrama[0];
             //Obtengo el número de palabras que forma el telegrama
-            numPalabras = textoTelegrama.Length;
+            numPalabras = textoTelegrama.Split(' ').Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'O' || tipoTelegrama == 'o')
                 if (numPalabras <= 10)
-                    coste = 25;
+                    coste = 2.5;
                 else
                     coste = 0.5 * numPalabras;
 else
