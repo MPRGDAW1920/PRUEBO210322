@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
             char tipoTelegrama;
             int numPalabras;
             double coste;
-            //Leo el telegrama
+            //Leo el telegrama repasso subida
             textoTelegrama = telegrama.Text;
             //Obtengo el primer carácter de la cadena
             tipoTelegrama = textoTelegrama[0];
