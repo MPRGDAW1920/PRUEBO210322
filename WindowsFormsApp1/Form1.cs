@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             textoTelegrama = telegrama.Text;
             //Obtengo el primer carácter de la cadena
             tipoTelegrama = textoTelegrama[0];
-            //Obtengo el número de palabras que forma el telegrama
+            //Obtengo el número de palabras que forma el telegrama EN RAMAMPRG2403
             numPalabras = textoTelegrama.Split(' ').Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'O' || tipoTelegrama == 'o')
